@@ -1,0 +1,30 @@
+// This file is generated as an Apex representation of the
+//     corresponding sObject and its fields.
+// This read-only file is used by the Apex Language Server to
+//     provide code smartness, and is deleted each time you
+//     refresh your sObject definitions.
+// To edit your sObjects and their fields, edit the corresponding
+//     .object-meta.xml and .field-meta.xml files.
+
+global class Phone_Plan__x {
+    global Id Id;
+    global String ExternalId;
+    global String DisplayUrl;
+    global Double Cost__c;
+    global Double Data_Limit__c;
+    global Phone__x Id__r;
+    global Id Id__c;
+    global String Name__c;
+    global Double Text_Limit__c;
+    global List<AttachedContentDocument> AttachedContentDocuments;
+    global List<CombinedAttachment> CombinedAttachments;
+    global List<ContentDocumentLink> ContentDocumentLinks;
+    global List<EntitySubscription> FeedSubscriptionsForEntity;
+    global List<NetworkActivityAudit> ParentEntities;
+    global List<ContentVersion> FirstPublishLocation;
+    global List<FeedComment> Parent;
+
+    global Phone_Plan__x () 
+    {
+    }
+}
